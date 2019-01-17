@@ -1,0 +1,23 @@
+00:02:16.969757 [40076730] futex(0x256d4c, FUTEX_WAIT_PRIVATE, 51027, NULL) = 0 <67.821136>
+ > /lib/libpthread-2.11.1.so(pthread_cond_wait+0x15c) [0xb730]
+ > /bin/program.elf(_init+0x95b50) [0x99710]
+ > /bin/program.elf(_init+0x515a8) [0x55168]
+ > /bin/program.elf(_init+0x95958) [0x99518]
+ > /lib/libpthread-2.11.1.so(__pthread_initialize_minimal+0x1adc) [0x5b60]
+ > /lib/libc-2.11.1.so(clone+0x88) [0xd7c58]
+00:03:24.836273 [4007501c] futex(0x256d80, FUTEX_WAKE_PRIVATE, 1) = 0 <0.013550>
+ > /lib/libpthread-2.11.1.so(pthread_mutex_timedlock+0x1150) [0xa01c]
+ > /bin/program.elf(_init+0x95b60) [0x99720]
+ > /bin/program.elf(_init+0x515a8) [0x55168]
+ > /bin/program.elf(_init+0x95958) [0x99518]
+ > /lib/libpthread-2.11.1.so(__pthread_initialize_minimal+0x1adc) [0x5b60]
+ > /lib/libc-2.11.1.so(clone+0x88) [0xd7c58]
+00:03:24.859771 [4007a624] sendto(17, "\211wfU\360\6\212\217\254\7\0\0\1\0\0\0\377\377\10\0~\4\0\0", 24, MSG_DONTWAIT, {sa_family=AF_INET, sin_port=htons(50884), sin_addr=inet_addr("192.168.1.3")}, 16) = 24 <0.024475>
+ > /lib/libpthread-2.11.1.so(sendto+0x54) [0xf624]
+ > /bin/program.elf(_init+0x904c4) [0x94084]
+ > /bin/program.elf(_init+0x38f10) [0x3cad0]
+ > /bin/program.elf(_init+0x51650) [0x55210]
+ > /bin/program.elf(_init+0x95958) [0x99518]
+ > /lib/libpthread-2.11.1.so(__pthread_initialize_minimal+0x1adc) [0x5b60]
+ > /lib/libc-2.11.1.so(clone+0x88) [0xd7c58]
+00:03:24.906311 [40076730] futex(0x256d4c, FUTEX_WAIT_PRIVATE, 51029, NULL <detached ...>

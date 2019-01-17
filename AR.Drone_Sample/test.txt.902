@@ -1,0 +1,3 @@
+00:02:16.845977 [4026ecdc] ioctl(26, VIDIOC_QBUF, {type=V4L2_BUF_TYPE_VIDEO_CAPTURE, index=5, memory=V4L2_MEMORY_MMAP, m.offset=0xbe000, length=153600, bytesused=153600, flags=V4L2_BUF_FLAG_MAPPED|V4L2_BUF_FLAG_DONE, ...}) = 0 <0.044525>
+ > /lib/libc-2.11.1.so(ioctl+0xc) [0xcecdc]
+00:02:16.935455 [40076730] futex(0x200fcc, FUTEX_WAIT_PRIVATE, 15763, NULL <detached ...>

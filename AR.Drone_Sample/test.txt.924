@@ -1,0 +1,7 @@
+00:02:16.755157 [40076730] futex(0x256884, FUTEX_WAIT_PRIVATE, 51029, NULL) = -1 EAGAIN (Resource temporarily unavailable) <0.000061>
+ > /lib/libpthread-2.11.1.so(pthread_cond_wait+0x15c) [0xb730]
+ > /bin/program.elf(_init+0x79480) [0x7d040]
+ > /bin/program.elf(_init+0x95958) [0x99518]
+ > /lib/libpthread-2.11.1.so(__pthread_initialize_minimal+0x1adc) [0x5b60]
+ > /lib/libc-2.11.1.so(clone+0x88) [0xd7c58]
+00:02:16.787719 [40076730] futex(0x256884, FUTEX_WAIT_PRIVATE, 51031, NULL <detached ...>

@@ -1,0 +1,24 @@
+00:02:16.935638 [ffff0520] nanosleep(0xfffffff5, 0x420f3d90) = 0 <50.811982>
+ > unexpected_backtracing_error [0xffff0520]
+00:03:07.750030 [401cca3c] rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0 <0.041229>
+ > /lib/libc-2.11.1.so(sigprocmask+0x44) [0x2ca3c]
+ > /lib/libc-2.11.1.so(sleep+0x60) [0xa0270]
+ > /bin/program.elf(_init+0x78ca4) [0x7c864]
+ > /bin/program.elf(_init+0x95958) [0x99518]
+ > /lib/libpthread-2.11.1.so(__pthread_initialize_minimal+0x1adc) [0x5b60]
+ > /lib/libc-2.11.1.so(clone+0x88) [0xd7c58]
+00:03:08.014495 [401cc8d8] rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0 <0.238037>
+ > /lib/libc-2.11.1.so(killpg+0xdc) [0x2c8d8]
+ > /lib/libc-2.11.1.so(sleep+0x9c) [0xa02ac]
+ > /bin/program.elf(_init+0x78ca4) [0x7c864]
+ > /bin/program.elf(_init+0x95958) [0x99518]
+ > /lib/libpthread-2.11.1.so(__pthread_initialize_minimal+0x1adc) [0x5b60]
+ > /lib/libc-2.11.1.so(clone+0x88) [0xd7c58]
+00:03:08.279632 [401cca3c] rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0 <0.002228>
+ > /lib/libc-2.11.1.so(sigprocmask+0x44) [0x2ca3c]
+ > /lib/libc-2.11.1.so(sleep+0xc0) [0xa02d0]
+ > /bin/program.elf(_init+0x78ca4) [0x7c864]
+ > /bin/program.elf(_init+0x95958) [0x99518]
+ > /lib/libpthread-2.11.1.so(__pthread_initialize_minimal+0x1adc) [0x5b60]
+ > /lib/libc-2.11.1.so(clone+0x88) [0xd7c58]
+00:03:08.308654 [40240544] nanosleep({60, 0},  <detached ...>

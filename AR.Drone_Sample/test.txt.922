@@ -1,0 +1,13 @@
+00:02:16.788116 [40079e64] read(38, "\340\257!\0\200\252%\0\320\252%\0", 12) = 12 <1.313598>
+ > /lib/libpthread-2.11.1.so(read+0x44) [0xee64]
+ > /bin/program.elf(_init+0x74374) [0x77f34]
+ > /bin/program.elf(_init+0x95958) [0x99518]
+ > /lib/libpthread-2.11.1.so(__pthread_initialize_minimal+0x1adc) [0x5b60]
+ > /lib/libc-2.11.1.so(clone+0x88) [0xd7c58]
+00:02:18.112030 [40079db4] write(41, "\220", 1) = 1 <0.011505>
+ > /lib/libpthread-2.11.1.so(write+0x44) [0xedb4]
+ > /bin/program.elf(_init+0x7438c) [0x77f4c]
+ > /bin/program.elf(_init+0x95958) [0x99518]
+ > /lib/libpthread-2.11.1.so(__pthread_initialize_minimal+0x1adc) [0x5b60]
+ > /lib/libc-2.11.1.so(clone+0x88) [0xd7c58]
+00:02:18.132141 [40079e64] read(38,  <detached ...>
